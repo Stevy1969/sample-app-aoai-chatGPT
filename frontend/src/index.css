@@ -1,3 +1,39 @@
+:root {
+  --vpv-primary: #003366; /* VPV Blau */
+  --vpv-secondary: #f2f2f2; /* Hellgrau */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--vpv-secondary);
+}
+
+button {
+  background-color: var(--vpv-primary);
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+}
+
+
+.chat-header {
+  background-color: var(--vpv-primary);
+  color: white;
+  font-size: 18px;
+  padding: 12px;
+  border-radius: 8px 8px 0 0;
+}
+
+.chat-input button {
+  background-color: var(--vpv-primary);
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+}
+
+
 * {
   box-sizing: border-box;
 }
