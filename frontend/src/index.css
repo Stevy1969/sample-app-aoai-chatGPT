@@ -1,9 +1,13 @@
 /* VPV Corporate Design */
 body {
   background-color: #003366; /* VPV-Blau */
-  font-family: 'Open Sans', Arial, sans-serif; /* Moderne Schrift */
+  font-family: 'Open Sans', Arial, sans-serif;
   color: #ffffff; /* Weiß für Text */
+  margin: 0;
+  padding: 0;
 }
+
+
 
 * {
   box-sizing: border-box;
